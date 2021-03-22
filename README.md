@@ -1,1 +1,1 @@
-# luxcium-name-convention
+# Luxcium Projects Naming Conventions
