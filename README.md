@@ -9,20 +9,20 @@ in JavaScript / TypeScript projects and in Bash, ShellScript, ZSH projects.
 ### IInterfaces vs Interfaces
 
 In my projects I aim at using the `IInterface` notation only for
-*'interfaces'* that represent the *'contract'* for the shape of an *object* to others
+*interfaces* that represent the *contract* for the shape of an *object* to others
 (other parts of the same project internaly, or to other users and consumers
 external to the project).
 
 Normally theses should be
 [POJOs](https://en.wikipedia.org/wiki/Plain_old_Java_object), ordinary
 JavaScript *object*, easely serializable, which dose not contain methods. Such
-*objects* should not be bound by any *'other* special restrictions.
+*objects* should not be bound by any *other* special restrictions.
 
 This definition of a contract is for now somehow subjective and should be
 defined more formally later, I decided **not** to use a `IInterface` notation
-for other *'interfaces'* that represent an *object* type.  *'Interfaces'* always
+for other *interfaces* that represent an *object* type.  *Interfaces* always
 begin with an upper case but as of now I decided to use the `xInterface`
-notation for *'interfaces'* that have a name that starts with capital leter **'I'**
+notation for *interfaces* that have a name that starts with capital leter **'I'**
 but are not consider `IInterface`s. For type definitions other than
 `IInterface`s and *objects*, type aliases should alway be used.
 
@@ -42,7 +42,7 @@ mechanisme to resolve to an instance of such *object*.
 
 
 In most, if not all cases, a function should always be defined with the
-`function` *keyword* if it is definedd at the *'global'* or *'module'* scope level, unless a
+`function` *keyword* if it is definedd at the *global* or *module* scope level, unless a
 type needs to be assigned which would resuld in the use of the `const` *keyword*
 *i.e.*:
 ```typescript
