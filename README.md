@@ -21,7 +21,7 @@ JavaScript *object*, easely serializable, which dose not contain methods. Such
 This definition of a contract is for now somehow subjective and should be
 defined more formally later, I decided **not** to use a `IInterface` notation
 for other *interfaces* that represent an *object* type. *Interfaces* always
-begin with an upper case but as of now I decided to use the `xInterface`
+begin with an upper case letter but as of now I decided to use the `xInterface`
 notation for *interfaces* that have a name that starts with capital leter
 **'I'** but are not consider `IInterface`s. For type definitions other than
 `IInterface`s and *objects*, type aliases should alway be used.
