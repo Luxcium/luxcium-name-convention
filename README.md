@@ -61,6 +61,6 @@ level, unless a type needs to be assigned which would resuld in the use of the
    const functionName: FunctionType = (parameter)=> parameter &&
    'someFunctionDefinition'
 ```
-In all other cases (function defined whithin an other function), the arow
+In all other cases (i.e. function defined whithin an other function), the arow
 function should be used except in the cases where its behaviour differ with a
 function defined using the `function` *keyword*.
