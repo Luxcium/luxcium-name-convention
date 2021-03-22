@@ -54,7 +54,7 @@ code that use these mechanisme to resolve to an instance of such *object*.
 
 
 In most, if not all cases, a function should always be defined with the
-`function` *keyword* if it is definedd at the *global* or *module* scope
+`function` *keyword* if it is defined at the *global* or *module* scope
 level, unless a type needs to be assigned which would resuld in the use of the
 `const` *keyword* *i.e.*:
 ```typescript
