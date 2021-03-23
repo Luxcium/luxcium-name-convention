@@ -35,7 +35,8 @@ by deleting letters within a word.
 
 ### IInterfaces vs Interfaces
 
-In my projects I aim at using the `IInterface` notation only for *interfaces*
+In my projects I aim at using the `IInterface` notation (which differ from
+`UpperCamelCase` only by the leading capital letter **'I'**) only for *interfaces*
 that represent the *contract* for the shape of an *object* to others (other
 parts of the same project internaly, or to other users and consumers external
 to the project).
@@ -45,7 +46,7 @@ defined more formally later, I decided **not** to use a `IInterface` notation
 for other *interfaces* that represent an *object* type. *Interfaces* always
 begin with an upper case letter but as of now I decided to use the
 `xInterface` notation for *interfaces* that have a name that starts with
-capital leter **'I'** but are not consider `IInterface`s. For type definitions
+capital letter **'I'** but are not consider `IInterface`s. For type definitions
 other than `IInterface`s and *objects*, type aliases should alway be used.
 
 #### Plain *ordinary* JavaScript object
