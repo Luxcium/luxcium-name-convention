@@ -6,19 +6,19 @@ in JavaScript / TypeScript projects and in Bash, ShellScript, ZSH projects.
 
 ## TypeScript and JavaScript projects
 
-### File name
+### File names
 
-File names must be all lowercase and may include underscores (_) or dashes
-(-), but no additional punctuation. Follow the convention that your project
-uses. Filenames' extension must be `.ts` or `.js`. Two files in a same folder
-can never share the same name and differe only by the ts/js etension as it may
-lead to problems.
+File names must be all lowercase and may include dashes (-) or underscores (_)
+with preference for dashes, but no additional punctuation. Follow the
+convention that your project uses. Filenames' extension must be `.ts` or
+`.js`. Two files in a same folder can never share the same name and differe
+only by the ts/js etension as it may lead to problems.
 [[§](https://google.github.io/styleguide/jsguide.html#file-name)]
 
-In some rare exceptions type definition files are using UpperCamelCase or
-IUpperCamelCase notation, regardless of this exception, a file name must never
-differ only by cassing as it will lead to unexpected behaviour on diferent
-sytems (UNIX, Linux, macOS, Windows).
+In some rare exceptions type definition files are using `UpperCamelCase` or
+`IUpperCamelCase` notation, regardless of this exception, a file name must
+never differ only by cassing as it will lead to unexpected behaviour on
+diferent sytems (UNIX, Linux, macOS, Windows).
 ### Rules common to all identifiers
 
 Identifiers use only ASCII letters and digits, and, in a small number of cases
@@ -85,7 +85,7 @@ therefor must be intantatiated from the *keyword* `new` or from a static
 method of that *object* returning an instance of that *object*, or from other
 code that use these mechanisme to resolve to an instance of such *object*.
 
-Class, interface, record, and typedef names are written in UpperCamelCase.
+Class, interface, record, and typedef names are written in `UpperCamelCase`.
 Unexported classes are simply locals: they are not marked @private and
 therefore are not named with a trailing underscore.
 [[§](https://google.github.io/styleguide/jsguide.html#naming-class-names)]
